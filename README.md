@@ -5,8 +5,8 @@ variables, mixins and nested elements
 
 # Technologies
 
-React hooks 
-React transition group 
+React hooks   <br />
+React transition group   <br />
 Sass
 
 ## Image
