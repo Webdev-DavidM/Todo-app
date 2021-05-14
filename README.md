@@ -11,6 +11,7 @@ Sass
 
 ## Image
 
+![](./todo-app.jpg)
 
 ## Live site
 
