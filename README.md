@@ -3,7 +3,7 @@
 A todo app to practice using react transition group, react hooks and SASS
 variables, mixins and nested elements
 
-# Technologies
+## Technologies
 
 React hooks   <br />
 React transition group   <br />
