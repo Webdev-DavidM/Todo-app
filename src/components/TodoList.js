@@ -14,6 +14,7 @@ export default function TodoList({
 
   useEffect(() => {
     setDoTodisplay(todos);
+    console.log('rerender');
   }, [todos]);
 
   const filter = (filter) => {
@@ -22,15 +23,23 @@ export default function TodoList({
       setButton('all');
     }
     if (filter === 'active') {
-      setDoTodisplay((prevTodos) => [
-        ...todos.filter((todo) => todo.completed === false),
-      ]);
+      setDoTodisplay((prevTodo) => [...todos]);
+      setTimeout(() => {
+        setDoTodisplay((prevTodos) => [
+          ...todos.filter((todo) => todo.completed === false),
+        ]);
+      }, 300);
+
       setButton('active');
     }
     if (filter === 'completed') {
-      setDoTodisplay((prevTodos) => [
-        ...todos.filter((todo) => todo.completed === true),
-      ]);
+      setDoTodisplay((prevTodo) => [...todos]);
+      setTimeout(() => {
+        setDoTodisplay((prevTodos) => [
+          ...todos.filter((todo) => todo.completed === true),
+        ]);
+      }, 300);
+
       setButton('completed');
     }
   };
