@@ -3,10 +3,10 @@
 A todo app to practice using react transition group, react hooks and SASS
 variables, mixins and nested elements
 
-# Technologies
+## Technologies
 
-React hooks 
-React transition group 
+React hooks   <br />
+React transition group   <br />
 Sass
 
 ## Image
@@ -17,4 +17,4 @@ Sass
 
 Please click below
 
-
+https://webdev-davidm.github.io/Todo-app/
