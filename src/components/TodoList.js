@@ -14,7 +14,6 @@ export default function TodoList({
 
   useEffect(() => {
     setDoTodisplay(todos);
-    console.log('rerender');
   }, [todos]);
 
   const filter = (filter) => {
@@ -67,7 +66,13 @@ export default function TodoList({
 
       <div className='controls-flex-container'>
         <span>{todos.length} items left</span>
-        <button onClick={() => clearComplete()}>Clear Completed</button>
+        <button
+          onClick={() => {
+            setButton('all');
+            clearComplete();
+          }}>
+          Clear Completed
+        </button>
         <div className='section-container'>
           <button
             style={button === 'all' ? { color: 'hsl(220, 98%, 61%)' } : null}
