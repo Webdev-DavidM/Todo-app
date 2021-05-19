@@ -3,13 +3,20 @@
 A todo app to practice using react transition group, react hooks and SASS
 variables, mixins and nested elements
 
+## Features
+
+- Type a todo and click the button to the left to add
+- Mark todos as done or delete them
+- Clear todos marked as completed
+- Filter the todos based on being active or completed
+
 ## Technologies
 
-React hooks   <br />
-React transition group   <br />
-Sass
+- React hooks  
+- React transition group   
+- Sass
 
-## Image
+## Images
 
 ![](./todo-app.jpg)
 
